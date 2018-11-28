@@ -1,0 +1,1318 @@
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+000
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-001
+-ascale			20.0		2.000000e+001
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-048
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+000
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-008
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-064
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+000
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-029
+-fwdtree		yes		yes
+-hmm					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us
+-input_endian		little		little
+-jsgf					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/demo.gram
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-001
+-kws_threshold		1		1.000000e+000
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+000
+-logfn					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/en-ms.txt
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-lpbeam			1e-40		1.000000e-040
+-lponlybeam		7e-29		7.000000e-029
+-lw			6.5		6.500000e+000
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-007
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+000
+-pbeam			1e-48		1.000000e-048
+-pip			1.0		1.000000e+000
+-pl_beam		1e-10		1.000000e-010
+-pl_pbeam		1e-10		1.000000e-010
+-pl_pip			1.0		1.000000e+000
+-pl_weight		3.0		3.000000e+000
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-003
+-smoothspec		no		no
+-svspec					0-12/13-25/26-38
+-tmat					
+-tmatfloor		0.0001		1.000000e-004
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-uw			1.0		1.000000e+000
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+000
+-var					
+-varfloor		0.0001		1.000000e-004
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-029
+-wip			0.65		6.500000e-001
+-wlen			0.025625	2.562500e-002
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
+INFO: mdef.c(518): Reading model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef file
+INFO: bin_mdef.c(336): Reading binary model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-sen, 5126 Sen, 29324 Sen-Seq
+INFO: tmat.c(206): Reading HMM transition probability matrices: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/means
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/variances
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(354): 222 variance values floored
+INFO: ptm_mgau.c(476): Loading senones from dump file C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/sendump
+INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
+INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
+INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
+INFO: ptm_mgau.c(835): Maximum top-N: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 138623 * 32 bytes (4331 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
+INFO: dict.c(336): 134522 words read
+INFO: dict.c(358): Reading filler dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 5 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 42^3 * 2 bytes (144 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 42672 bytes (41 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 42672 bytes (41 KiB) for single-phone word triphones
+INFO: jsgf.c(706): Defined rule: PUBLIC <demo.command>
+INFO: fsg_model.c(208): Computing transitive closure for null transitions
+INFO: fsg_model.c(270): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -26, pip: 0)
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for [NOISE] to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_search.c(173): Added 1 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 172 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 39 HMM nodes in lextree (15 leaves)
+INFO: fsg_lextree.c(259): Allocated 5616 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 2160 bytes (2 KiB) for lextree leafnodes
+INFO: cmn_prior.c(131): cmn_prior_update: from < 40.00  3.00 -1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 27.15 12.21  2.19 -2.06  2.20  4.39  5.78  0.08 -6.10 -1.32  4.87  3.27  0.73 >
+INFO: fsg_search.c(843): 214 frames, 6776 HMMs (31/fr), 18838 senones (88/fr), 423 history entries (1/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 27.15 12.21  2.19 -2.06  2.20  4.39  5.78  0.08 -6.10 -1.32  4.87  3.27  0.73 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 26.48 11.27  2.52 -2.76  2.54  4.53  7.21  0.53 -6.18 -2.43  4.57  3.76  1.26 >
+INFO: fsg_search.c(843): 44 frames, 1125 HMMs (25/fr), 3298 senones (74/fr), 58 history entries (1/fr)
+
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+000
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-001
+-ascale			20.0		2.000000e+001
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-048
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+000
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-008
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-064
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+000
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-029
+-fwdtree		yes		yes
+-hmm					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us
+-input_endian		little		little
+-jsgf					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/demo.gram
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-001
+-kws_threshold		1		1.000000e+000
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+000
+-logfn					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/en-ms.txt
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-lpbeam			1e-40		1.000000e-040
+-lponlybeam		7e-29		7.000000e-029
+-lw			6.5		6.500000e+000
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-007
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+000
+-pbeam			1e-48		1.000000e-048
+-pip			1.0		1.000000e+000
+-pl_beam		1e-10		1.000000e-010
+-pl_pbeam		1e-10		1.000000e-010
+-pl_pip			1.0		1.000000e+000
+-pl_weight		3.0		3.000000e+000
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-003
+-smoothspec		no		no
+-svspec					0-12/13-25/26-38
+-tmat					
+-tmatfloor		0.0001		1.000000e-004
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-uw			1.0		1.000000e+000
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+000
+-var					
+-varfloor		0.0001		1.000000e-004
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-029
+-wip			0.65		6.500000e-001
+-wlen			0.025625	2.562500e-002
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
+INFO: mdef.c(518): Reading model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef file
+INFO: bin_mdef.c(336): Reading binary model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-sen, 5126 Sen, 29324 Sen-Seq
+INFO: tmat.c(206): Reading HMM transition probability matrices: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/means
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/variances
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(354): 222 variance values floored
+INFO: ptm_mgau.c(476): Loading senones from dump file C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/sendump
+INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
+INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
+INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
+INFO: ptm_mgau.c(835): Maximum top-N: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 138623 * 32 bytes (4331 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
+INFO: dict.c(336): 134522 words read
+INFO: dict.c(358): Reading filler dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 5 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 42^3 * 2 bytes (144 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 42672 bytes (41 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 42672 bytes (41 KiB) for single-phone word triphones
+INFO: jsgf.c(706): Defined rule: PUBLIC <demo.command>
+INFO: fsg_model.c(208): Computing transitive closure for null transitions
+INFO: fsg_model.c(270): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -26, pip: 0)
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for [NOISE] to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_search.c(173): Added 1 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 172 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 39 HMM nodes in lextree (15 leaves)
+INFO: fsg_lextree.c(259): Allocated 5616 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 2160 bytes (2 KiB) for lextree leafnodes
+INFO: cmn_prior.c(131): cmn_prior_update: from < 40.00  3.00 -1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 27.60 11.01  0.79 -3.14  4.83  7.12  9.14  1.52 -5.50 -0.20  3.88  5.18  1.87 >
+INFO: fsg_search.c(843): 270 frames, 8513 HMMs (31/fr), 23671 senones (87/fr), 470 history entries (1/fr)
+
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+000
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-001
+-ascale			20.0		2.000000e+001
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-048
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+000
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-008
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-064
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+000
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-029
+-fwdtree		yes		yes
+-hmm					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us
+-input_endian		little		little
+-jsgf					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/demo.gram
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-001
+-kws_threshold		1		1.000000e+000
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+000
+-logfn					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/en-ms.txt
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-lpbeam			1e-40		1.000000e-040
+-lponlybeam		7e-29		7.000000e-029
+-lw			6.5		6.500000e+000
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-007
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+000
+-pbeam			1e-48		1.000000e-048
+-pip			1.0		1.000000e+000
+-pl_beam		1e-10		1.000000e-010
+-pl_pbeam		1e-10		1.000000e-010
+-pl_pip			1.0		1.000000e+000
+-pl_weight		3.0		3.000000e+000
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-003
+-smoothspec		no		no
+-svspec					0-12/13-25/26-38
+-tmat					
+-tmatfloor		0.0001		1.000000e-004
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-uw			1.0		1.000000e+000
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+000
+-var					
+-varfloor		0.0001		1.000000e-004
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-029
+-wip			0.65		6.500000e-001
+-wlen			0.025625	2.562500e-002
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
+INFO: mdef.c(518): Reading model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef file
+INFO: bin_mdef.c(336): Reading binary model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-sen, 5126 Sen, 29324 Sen-Seq
+INFO: tmat.c(206): Reading HMM transition probability matrices: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/means
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/variances
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(354): 222 variance values floored
+INFO: ptm_mgau.c(476): Loading senones from dump file C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/sendump
+INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
+INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
+INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
+INFO: ptm_mgau.c(835): Maximum top-N: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 138623 * 32 bytes (4331 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
+INFO: dict.c(336): 134522 words read
+INFO: dict.c(358): Reading filler dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 5 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 42^3 * 2 bytes (144 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 42672 bytes (41 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 42672 bytes (41 KiB) for single-phone word triphones
+INFO: jsgf.c(706): Defined rule: PUBLIC <demo.command>
+INFO: fsg_model.c(208): Computing transitive closure for null transitions
+INFO: fsg_model.c(270): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -26, pip: 0)
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for [NOISE] to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_search.c(173): Added 1 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 172 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 39 HMM nodes in lextree (15 leaves)
+INFO: fsg_lextree.c(259): Allocated 5616 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 2160 bytes (2 KiB) for lextree leafnodes
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+000
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-001
+-ascale			20.0		2.000000e+001
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-048
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+000
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-008
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-064
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+000
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-029
+-fwdtree		yes		yes
+-hmm					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us
+-input_endian		little		little
+-jsgf					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/demo.gram
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-001
+-kws_threshold		1		1.000000e+000
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+000
+-logfn					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/en-ms.txt
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-lpbeam			1e-40		1.000000e-040
+-lponlybeam		7e-29		7.000000e-029
+-lw			6.5		6.500000e+000
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-007
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+000
+-pbeam			1e-48		1.000000e-048
+-pip			1.0		1.000000e+000
+-pl_beam		1e-10		1.000000e-010
+-pl_pbeam		1e-10		1.000000e-010
+-pl_pip			1.0		1.000000e+000
+-pl_weight		3.0		3.000000e+000
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-003
+-smoothspec		no		no
+-svspec					0-12/13-25/26-38
+-tmat					
+-tmatfloor		0.0001		1.000000e-004
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-uw			1.0		1.000000e+000
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+000
+-var					
+-varfloor		0.0001		1.000000e-004
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-029
+-wip			0.65		6.500000e-001
+-wlen			0.025625	2.562500e-002
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
+INFO: mdef.c(518): Reading model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef file
+INFO: bin_mdef.c(336): Reading binary model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-sen, 5126 Sen, 29324 Sen-Seq
+INFO: tmat.c(206): Reading HMM transition probability matrices: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/means
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/variances
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(354): 222 variance values floored
+INFO: ptm_mgau.c(476): Loading senones from dump file C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/sendump
+INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
+INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
+INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
+INFO: ptm_mgau.c(835): Maximum top-N: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 138623 * 32 bytes (4331 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
+INFO: dict.c(336): 134522 words read
+INFO: dict.c(358): Reading filler dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 5 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 42^3 * 2 bytes (144 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 42672 bytes (41 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 42672 bytes (41 KiB) for single-phone word triphones
+INFO: jsgf.c(706): Defined rule: PUBLIC <demo.command>
+INFO: fsg_model.c(208): Computing transitive closure for null transitions
+INFO: fsg_model.c(270): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -26, pip: 0)
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for [NOISE] to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_search.c(173): Added 1 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 172 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 39 HMM nodes in lextree (15 leaves)
+INFO: fsg_lextree.c(259): Allocated 5616 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 2160 bytes (2 KiB) for lextree leafnodes
+INFO: fsg_search.c(843): 189 frames, 6372 HMMs (33/fr), 17381 senones (91/fr), 625 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 40.00  3.00 -1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 33.11 15.95 -3.83 -1.68  9.64  6.48  4.18 -0.26 -1.38 -0.62  0.53 -0.85  1.32 >
+INFO: fsg_search.c(843): 31 frames, 702 HMMs (22/fr), 2071 senones (66/fr), 37 history entries (1/fr)
+
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+000
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-001
+-ascale			20.0		2.000000e+001
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-048
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+000
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-008
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-064
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+000
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-029
+-fwdtree		yes		yes
+-hmm					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us
+-input_endian		little		little
+-jsgf					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/demo.gram
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-001
+-kws_threshold		1		1.000000e+000
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+000
+-logfn					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/en-ms.txt
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-lpbeam			1e-40		1.000000e-040
+-lponlybeam		7e-29		7.000000e-029
+-lw			6.5		6.500000e+000
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-007
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+000
+-pbeam			1e-48		1.000000e-048
+-pip			1.0		1.000000e+000
+-pl_beam		1e-10		1.000000e-010
+-pl_pbeam		1e-10		1.000000e-010
+-pl_pip			1.0		1.000000e+000
+-pl_weight		3.0		3.000000e+000
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-003
+-smoothspec		no		no
+-svspec					0-12/13-25/26-38
+-tmat					
+-tmatfloor		0.0001		1.000000e-004
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-uw			1.0		1.000000e+000
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+000
+-var					
+-varfloor		0.0001		1.000000e-004
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-029
+-wip			0.65		6.500000e-001
+-wlen			0.025625	2.562500e-002
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
+INFO: mdef.c(518): Reading model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef file
+INFO: bin_mdef.c(336): Reading binary model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-sen, 5126 Sen, 29324 Sen-Seq
+INFO: tmat.c(206): Reading HMM transition probability matrices: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/means
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/variances
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(354): 222 variance values floored
+INFO: ptm_mgau.c(476): Loading senones from dump file C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/sendump
+INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
+INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
+INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
+INFO: ptm_mgau.c(835): Maximum top-N: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 138623 * 32 bytes (4331 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
+INFO: dict.c(336): 134522 words read
+INFO: dict.c(358): Reading filler dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 5 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 42^3 * 2 bytes (144 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 42672 bytes (41 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 42672 bytes (41 KiB) for single-phone word triphones
+INFO: jsgf.c(706): Defined rule: PUBLIC <demo.command>
+INFO: fsg_model.c(208): Computing transitive closure for null transitions
+INFO: fsg_model.c(270): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -26, pip: 0)
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for [NOISE] to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_search.c(173): Added 1 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 172 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 39 HMM nodes in lextree (15 leaves)
+INFO: fsg_lextree.c(259): Allocated 5616 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 2160 bytes (2 KiB) for lextree leafnodes
+INFO: cmn_prior.c(131): cmn_prior_update: from < 40.00  3.00 -1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 31.63 12.00  2.13 -2.34  0.27  6.02  9.80  4.35 -5.88 -1.92  3.13  1.29  5.12 >
+INFO: fsg_search.c(843): 168 frames, 4921 HMMs (29/fr), 13872 senones (82/fr), 279 history entries (1/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 31.63 12.00  2.13 -2.34  0.27  6.02  9.80  4.35 -5.88 -1.92  3.13  1.29  5.12 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.43 16.88 -3.10 -1.83 -1.60  4.35  5.07  2.47 -4.53 -1.93  2.16  1.29  1.44 >
+INFO: fsg_search.c(843): 288 frames, 9878 HMMs (34/fr), 26660 senones (92/fr), 1116 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.43 16.88 -3.10 -1.83 -1.60  4.35  5.07  2.47 -4.53 -1.93  2.16  1.29  1.44 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.81 16.46 -2.83 -0.78 -1.01  3.75  4.63  2.59 -4.02 -2.52  2.02  1.38  1.46 >
+INFO: fsg_search.c(843): 42 frames, 1098 HMMs (26/fr), 3199 senones (76/fr), 108 history entries (2/fr)
+
+INFO: fsg_search.c(843): 117 frames, 4115 HMMs (35/fr), 11051 senones (94/fr), 568 history entries (4/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.81 16.46 -2.83 -0.78 -1.01  3.75  4.63  2.59 -4.02 -2.52  2.02  1.38  1.46 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 43.99 18.05 -1.58 -1.23 -2.67  2.52  4.33  1.99 -3.49 -1.66  1.88  1.34  1.44 >
+INFO: fsg_search.c(843): 42 frames, 1282 HMMs (30/fr), 3573 senones (85/fr), 151 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 43.99 18.05 -1.58 -1.23 -2.67  2.52  4.33  1.99 -3.49 -1.66  1.88  1.34  1.44 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 43.53 17.32 -1.03 -0.33 -1.89  2.20  3.93  2.04 -3.48 -1.82  1.87  1.39  1.35 >
+INFO: fsg_search.c(843): 48 frames, 1447 HMMs (30/fr), 4075 senones (84/fr), 169 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 43.53 17.32 -1.03 -0.33 -1.89  2.20  3.93  2.04 -3.48 -1.82  1.87  1.39  1.35 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 43.25 17.23 -0.75 -0.16 -1.48  1.89  3.49  2.07 -3.32 -1.82  2.04  1.27  1.45 >
+INFO: fsg_search.c(843): 43 frames, 1342 HMMs (31/fr), 3759 senones (87/fr), 111 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 43.25 17.23 -0.75 -0.16 -1.48  1.89  3.49  2.07 -3.32 -1.82  2.04  1.27  1.45 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 43.27 17.11 -0.80 -0.09 -1.02  1.71  3.10  2.08 -3.07 -1.66  1.96  1.09  1.42 >
+INFO: fsg_search.c(843): 42 frames, 1216 HMMs (28/fr), 3474 senones (82/fr), 146 history entries (3/fr)
+
+INFO: cmn_prior.c(99): cmn_prior_update: from < 43.27 17.11 -0.80 -0.09 -1.02  1.71  3.10  2.08 -3.07 -1.66  1.96  1.09  1.42 >
+INFO: cmn_prior.c(116): cmn_prior_update: to   < 42.95 16.98 -0.77 -0.06 -1.00  1.82  3.11  2.07 -3.12 -1.66  1.95  1.12  1.45 >
+INFO: cmn_prior.c(131): cmn_prior_update: from < 42.95 16.98 -0.77 -0.06 -1.00  1.82  3.11  2.07 -3.12 -1.66  1.95  1.12  1.45 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 43.12 16.52 -0.10  1.07 -0.38  1.10  2.58  2.80 -3.25 -1.63  1.95  1.49  1.58 >
+INFO: fsg_search.c(843): 43 frames, 1107 HMMs (25/fr), 3217 senones (74/fr), 118 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 43.12 16.52 -0.10  1.07 -0.38  1.10  2.58  2.80 -3.25 -1.63  1.95  1.49  1.58 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 42.87 16.03 -0.10  1.50  0.11  0.83  2.21  2.88 -2.94 -1.18  1.86  1.70  1.95 >
+INFO: fsg_search.c(843): 33 frames, 974 HMMs (29/fr), 2757 senones (83/fr), 78 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 42.87 16.03 -0.10  1.50  0.11  0.83  2.21  2.88 -2.94 -1.18  1.86  1.70  1.95 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 42.22 15.87  0.06  1.67  0.60  1.00  2.32  3.00 -2.72 -0.60  1.98  1.24  2.26 >
+INFO: fsg_search.c(843): 43 frames, 1370 HMMs (31/fr), 3793 senones (88/fr), 159 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 42.22 15.87  0.06  1.67  0.60  1.00  2.32  3.00 -2.72 -0.60  1.98  1.24  2.26 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.93 15.75  0.34  2.15  1.25  1.16  2.50  3.84 -2.30 -0.10  2.33  1.32  2.60 >
+INFO: fsg_search.c(843): 46 frames, 1341 HMMs (29/fr), 3755 senones (81/fr), 138 history entries (3/fr)
+
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+000
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-001
+-ascale			20.0		2.000000e+001
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-048
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+000
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-008
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-064
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+000
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-029
+-fwdtree		yes		yes
+-hmm					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us
+-input_endian		little		little
+-jsgf					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/demo.gram
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-001
+-kws_threshold		1		1.000000e+000
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+000
+-logfn					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/en-ms.txt
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-lpbeam			1e-40		1.000000e-040
+-lponlybeam		7e-29		7.000000e-029
+-lw			6.5		6.500000e+000
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-007
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+000
+-pbeam			1e-48		1.000000e-048
+-pip			1.0		1.000000e+000
+-pl_beam		1e-10		1.000000e-010
+-pl_pbeam		1e-10		1.000000e-010
+-pl_pip			1.0		1.000000e+000
+-pl_weight		3.0		3.000000e+000
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-003
+-smoothspec		no		no
+-svspec					0-12/13-25/26-38
+-tmat					
+-tmatfloor		0.0001		1.000000e-004
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-uw			1.0		1.000000e+000
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+000
+-var					
+-varfloor		0.0001		1.000000e-004
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-029
+-wip			0.65		6.500000e-001
+-wlen			0.025625	2.562500e-002
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
+INFO: mdef.c(518): Reading model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef file
+INFO: bin_mdef.c(336): Reading binary model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-sen, 5126 Sen, 29324 Sen-Seq
+INFO: tmat.c(206): Reading HMM transition probability matrices: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/means
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/variances
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(354): 222 variance values floored
+INFO: ptm_mgau.c(476): Loading senones from dump file C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/sendump
+INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
+INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
+INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
+INFO: ptm_mgau.c(835): Maximum top-N: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 138623 * 32 bytes (4331 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
+INFO: dict.c(336): 134522 words read
+INFO: dict.c(358): Reading filler dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 5 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 42^3 * 2 bytes (144 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 42672 bytes (41 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 42672 bytes (41 KiB) for single-phone word triphones
+INFO: jsgf.c(706): Defined rule: PUBLIC <demo.command>
+INFO: fsg_model.c(208): Computing transitive closure for null transitions
+INFO: fsg_model.c(270): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -26, pip: 0)
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for [NOISE] to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_search.c(173): Added 1 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 172 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 39 HMM nodes in lextree (15 leaves)
+INFO: fsg_lextree.c(259): Allocated 5616 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 2160 bytes (2 KiB) for lextree leafnodes
+INFO: cmn_prior.c(131): cmn_prior_update: from < 40.00  3.00 -1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 31.77 13.90  2.43 -2.98  0.31  0.14  4.03  0.89 -4.26 -5.33  3.61  3.57  1.74 >
+INFO: fsg_search.c(843): 150 frames, 4484 HMMs (29/fr), 12607 senones (84/fr), 260 history entries (1/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 31.77 13.90  2.43 -2.98  0.31  0.14  4.03  0.89 -4.26 -5.33  3.61  3.57  1.74 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 34.93 12.08  1.20 -1.70  0.19  1.03  2.99  0.65 -4.37 -5.15  3.38  3.34  1.70 >
+INFO: fsg_search.c(843): 46 frames, 1276 HMMs (27/fr), 3676 senones (79/fr), 152 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 34.93 12.08  1.20 -1.70  0.19  1.03  2.99  0.65 -4.37 -5.15  3.38  3.34  1.70 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 37.36 11.79  0.36  0.88  1.33  0.39  1.61  0.34 -3.85 -6.66  2.56  3.08  1.11 >
+INFO: fsg_search.c(843): 36 frames, 1027 HMMs (28/fr), 2912 senones (80/fr), 84 history entries (2/fr)
+
+INFO: fsg_search.c(843): 47 frames, 1505 HMMs (32/fr), 4115 senones (87/fr), 145 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 37.36 11.79  0.36  0.88  1.33  0.39  1.61  0.34 -3.85 -6.66  2.56  3.08  1.11 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.23 15.56  1.27 -0.56 -2.24 -0.24  4.00  2.92 -3.11 -5.69  1.84  2.77 -0.09 >
+INFO: fsg_search.c(843): 65 frames, 2052 HMMs (31/fr), 5625 senones (86/fr), 167 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.23 15.56  1.27 -0.56 -2.24 -0.24  4.00  2.92 -3.11 -5.69  1.84  2.77 -0.09 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.96 15.93  0.82 -0.87 -2.04 -0.76  3.84  2.41 -2.59 -5.36  1.86  3.06 -0.61 >
+INFO: fsg_search.c(843): 43 frames, 1100 HMMs (25/fr), 3190 senones (74/fr), 86 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.96 15.93  0.82 -0.87 -2.04 -0.76  3.84  2.41 -2.59 -5.36  1.86  3.06 -0.61 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.15 15.20  0.69 -1.12 -2.09 -0.26  3.71  2.02 -2.56 -5.25  1.82  3.13 -0.43 >
+INFO: fsg_search.c(843): 24 frames, 684 HMMs (28/fr), 1963 senones (81/fr), 70 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.15 15.20  0.69 -1.12 -2.09 -0.26  3.71  2.02 -2.56 -5.25  1.82  3.13 -0.43 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.39 13.43  1.46 -1.20 -1.27 -0.44  3.13  2.79 -2.62 -5.25  1.36  2.79 -0.49 >
+INFO: fsg_search.c(843): 47 frames, 1384 HMMs (29/fr), 3957 senones (84/fr), 138 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.39 13.43  1.46 -1.20 -1.27 -0.44  3.13  2.79 -2.62 -5.25  1.36  2.79 -0.49 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.65 13.14  1.31 -1.23 -0.86 -0.47  2.55  2.47 -2.64 -5.26  1.65  2.49 -0.26 >
+INFO: fsg_search.c(843): 46 frames, 1294 HMMs (28/fr), 3743 senones (81/fr), 93 history entries (2/fr)
+
+INFO: fsg_search.c(843): 45 frames, 1109 HMMs (24/fr), 3273 senones (72/fr), 102 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.65 13.14  1.31 -1.23 -0.86 -0.47  2.55  2.47 -2.64 -5.26  1.65  2.49 -0.26 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.65 13.25  1.31  0.32  0.61 -1.55  2.32  2.38 -1.36 -5.47  2.06  2.38  0.41 >
+INFO: fsg_search.c(843): 32 frames, 966 HMMs (30/fr), 2704 senones (84/fr), 65 history entries (2/fr)
+
+INFO: fsg_search.c(843): 46 frames, 1168 HMMs (25/fr), 3363 senones (73/fr), 109 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 41.65 13.25  1.31  0.32  0.61 -1.55  2.32  2.38 -1.36 -5.47  2.06  2.38  0.41 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 41.62 13.37  1.38  1.30  1.80 -2.23  2.34  2.50 -0.45 -5.76  2.35  2.43  1.22 >
+INFO: fsg_search.c(843): 43 frames, 1110 HMMs (25/fr), 3229 senones (75/fr), 91 history entries (2/fr)
+
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+000
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-001
+-ascale			20.0		2.000000e+001
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-048
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+000
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		40,3,-1
+-compallsen		no		no
+-debug					0
+-dict					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				
+-fillprob		1e-8		1.000000e-008
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-064
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+000
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-029
+-fwdtree		yes		yes
+-hmm					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us
+-input_endian		little		little
+-jsgf					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/demo.gram
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-001
+-kws_threshold		1		1.000000e+000
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+000
+-logfn					C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/en-ms.txt
+-logspec		no		no
+-lowerf			133.33334	1.300000e+002
+-lpbeam			1e-40		1.000000e-040
+-lponlybeam		7e-29		7.000000e-029
+-lw			6.5		6.500000e+000
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					
+-mean					
+-mfclogdir				
+-min_endfr		0		0
+-mixw					
+-mixwfloor		0.0000001	1.000000e-007
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+000
+-pbeam			1e-48		1.000000e-048
+-pip			1.0		1.000000e+000
+-pl_beam		1e-10		1.000000e-010
+-pl_pbeam		1e-10		1.000000e-010
+-pl_pip			1.0		1.000000e+000
+-pl_weight		3.0		3.000000e+000
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+004
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-003
+-smoothspec		no		no
+-svspec					0-12/13-25/26-38
+-tmat					
+-tmatfloor		0.0001		1.000000e-004
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+003
+-uw			1.0		1.000000e+000
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+000
+-var					
+-varfloor		0.0001		1.000000e-004
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-029
+-wip			0.65		6.500000e-001
+-wlen			0.025625	2.562500e-002
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
+INFO: mdef.c(518): Reading model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef file
+INFO: bin_mdef.c(336): Reading binary model definition: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/mdef
+INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-sen, 5126 Sen, 29324 Sen-Seq
+INFO: tmat.c(206): Reading HMM transition probability matrices: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/means
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/variances
+INFO: ms_gauden.c(292): 42 codebook, 3 feature, size: 
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(294):  128x13
+INFO: ms_gauden.c(354): 222 variance values floored
+INFO: ptm_mgau.c(476): Loading senones from dump file C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/sendump
+INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
+INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
+INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
+INFO: ptm_mgau.c(835): Maximum top-N: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 138623 * 32 bytes (4331 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/cmudict-en-us.dict
+INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
+INFO: dict.c(336): 134522 words read
+INFO: dict.c(358): Reading filler dictionary: C:/Users/AMIRULAZMI/Documents/Unity Projects/JSON-App/Assets/StreamingAssets/SphinxAssets/Models/en-us/en-us/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 5 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 42^3 * 2 bytes (144 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 42672 bytes (41 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 42672 bytes (41 KiB) for single-phone word triphones
+INFO: jsgf.c(706): Defined rule: PUBLIC <demo.command>
+INFO: fsg_model.c(208): Computing transitive closure for null transitions
+INFO: fsg_model.c(270): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -26, pip: 0)
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_model.c(423): Adding silence transitions for [NOISE] to FSG
+INFO: fsg_model.c(443): Added 2 silence word transitions
+INFO: fsg_search.c(173): Added 1 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 172 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 39 HMM nodes in lextree (15 leaves)
+INFO: fsg_lextree.c(259): Allocated 5616 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 2160 bytes (2 KiB) for lextree leafnodes
+INFO: cmn_prior.c(131): cmn_prior_update: from < 40.00  3.00 -1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 40.37  0.53 -9.02  5.71  0.34 -0.11 -5.49 -6.83 -3.24  4.85  5.92  1.26 -1.45 >
+INFO: fsg_search.c(843): 304 frames, 9132 HMMs (30/fr), 25775 senones (84/fr), 784 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 40.37  0.53 -9.02  5.71  0.34 -0.11 -5.49 -6.83 -3.24  4.85  5.92  1.26 -1.45 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 37.46  2.98 -6.68  5.58  1.11  2.29 -3.18 -4.93 -4.33  3.62  6.74  2.54 -1.42 >
+INFO: fsg_search.c(843): 168 frames, 5259 HMMs (31/fr), 14624 senones (87/fr), 387 history entries (2/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 37.46  2.98 -6.68  5.58  1.11  2.29 -3.18 -4.93 -4.33  3.62  6.74  2.54 -1.42 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 36.62  3.16 -6.40  5.41  1.27  2.08 -2.93 -4.42 -3.95  3.44  6.59  2.56 -1.08 >
+INFO: fsg_search.c(843): 28 frames, 883 HMMs (31/fr), 2463 senones (87/fr), 98 history entries (3/fr)
+
+INFO: cmn_prior.c(131): cmn_prior_update: from < 36.62  3.16 -6.40  5.41  1.27  2.08 -2.93 -4.42 -3.95  3.44  6.59  2.56 -1.08 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 35.82  5.33 -4.45  4.95  1.63  2.12 -1.52 -3.07 -3.86  2.54  6.44  2.64 -0.72 >
+INFO: fsg_search.c(843): 86 frames, 2761 HMMs (32/fr), 7615 senones (88/fr), 258 history entries (3/fr)
+

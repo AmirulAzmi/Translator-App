@@ -1,0 +1,4 @@
+#JSGF V1.0;
+grammar demo;
+
+public <command> = satu | dua | tiga | empat | lima | enam | tujuh | lapan | sembilan | sepuluh;
